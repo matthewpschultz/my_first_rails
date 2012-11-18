@@ -1,0 +1,22 @@
+<div class="center hero-unit">
+ <!-- <tr>
+    <td>
+      <h1>blargh</h1>
+    </td>
+  </tr>-->
+
+<p>
+<table border = 1>
+<tr>
+  <td>
+    <%= image_tag("costelloKitchen.jpg", alt: "Rails") %>
+  </td>
+  <td>
+    <br>blargh</br>
+  </td>
+</tr>
+
+</table>
+<!--</div>-->
+</p>
+
