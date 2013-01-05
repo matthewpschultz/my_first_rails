@@ -1,32 +1,32 @@
-<!--<header class="navbar navbar-fixed-top navbar-inverse">-->
 <header class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
       <table border ="0">
-	  <tr>
-	    <td rowspan="1">
-	      <%= image_tag("studioOneTrimmed.jpg", alt: "Rails") %>
-	    </td>
-	    <td>
-	      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact our Squirrel Hill showroom at 412-422-8200</p>
-	      <nav>
-		<ul class="nav pull-right">
-		  <li><%= link_to "Home",    root_path %></li>
-		  <li><%= link_to "About Studio One Designs", about_path %></li>
-		  <li><%= link_to "Products", '#' %></li>
-		  <li><%= link_to "Contact Us", contact_path %></li>
-		</ul>
-	      </nav>
-	    </td>
-	  </tr>
-	  <tr>
-	    <td rowspan = "2">
-	        <p>&nbsp;&nbsp;&nbsp;A boutique design firm creating custom kitchens contoured to your needs.</p>
-	    </td>  
-	   <!-- <td>
-	     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;add text here possibly.</p>
-	    </td>-->
-	  </tr>
+	<tr>
+	  <td rowspan="1">
+	    <%= image_tag("studioOneTrimmed.jpg", alt: "No image available") %>
+	  </td>
+	  <td align = "right">
+	    <p>Squirrel Hill Showroom: 412-422-8200</p>
+	    <nav>
+	      <ul class="nav pull-right">
+		<li><%= link_to "Home",    root_path %></li>
+		<li><%= link_to "About Us", about_path %></li>
+		<li><%= link_to "Products", '#' %></li>
+		<li><%= link_to "Contact Us", contact_path %></li>
+	      </ul>
+	    </nav>
+	  </td>
+	</tr>
+	<tr>
+	  <td rowspan = "2">
+	    <p1>A boutique design firm creating custom kitchens contoured to your needs.<br/>
+	      Over 100 years of combined experience in contracting and design.</p1>
+	  </td>  
+	  <td>
+	     <%= link_to image_tag("facebook_logo.jpg", alt: "No image available"), 'https://www.facebook.com/pages/Frankies/122858467774600/'%>
+	  </td>
+	</tr>
       </table>
     </div>
   </div>
