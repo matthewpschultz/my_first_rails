@@ -1,0 +1,35 @@
+<div class="center hero-unit">
+    <table border="0" cellpadding="5px" name="projects_table">
+      <tr>
+	<td>
+	  <%= image_tag("kitchen_page/costello_pos_1.jpg", alt: "No image") %>
+	</td>
+	<td>
+	  <%= image_tag("kitchen_page/jucha_pos_2.jpg", alt: "No image") %>
+	</td>
+      </tr>
+      <tr>
+	<td>
+	  <%= image_tag("kitchen_page/general_kitchen_caption.jpg", alt: "No image") %>
+	</td>
+	<td>
+	  <%= image_tag("kitchen_page/general_kitchen_caption.jpg", alt: "No image") %>
+	</td>
+      </tr>
+      <tr>
+	<td>
+	  <%= image_tag("kitchen_page/yoder_pos_3.jpg", alt: "No image") %>
+	</td>
+	<td>
+	  <%= image_tag("kitchen_page/wassel_pos_4.jpg", alt: "No image") %>
+	</td>
+      </tr>
+      <tr>
+	<td>
+	  <%= image_tag("kitchen_page/general_kitchen_caption.jpg", alt: "No image") %>
+	</td>
+      	<td>
+	  <%= image_tag("kitchen_page/general_kitchen_caption.jpg", alt: "No image") %>
+	</td>
+      </tr>
+    </table>

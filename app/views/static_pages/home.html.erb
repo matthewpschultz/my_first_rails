@@ -1,16 +1,27 @@
 <div class="center hero-unit">
     <table border = 0 cellpadding="4px">
+      	<tr>
+	  <td rowspan>
+	    <p1>A boutique design firm creating custom kitchens contoured to your needs.<br/>
+	      Over 100 years of combined experience in contracting and design.</p1>
+	  </td>  
+	  <td>
+	     <%= link_to image_tag("facebook_logo.jpg", alt: "No image available"), 'https://www.facebook.com/pages/Frankies/122858467774600/'%>
+	  </td>
+	</tr>
+
+
       <tr>
 	<td rowspan = "2">
-	  <%= image_tag("costelloKitchen.jpg", alt: "Rails") %>
+	  <%= link_to image_tag("costelloKitchen.jpg", alt: "No image"), kitchens_path %>
 	</td>
 	<td>
-	  <%= image_tag("roseTeaCounter.jpg", alt: "Rails") %>
+	  <%= link_to image_tag("roseTeaCounter.jpg", alt: "No image"), projects_path %>
 	</td>
       </tr>
       <tr>
 	<td>
-	  <%= image_tag("spiegelBath.jpg", alt: "Rails") %>
+	  <%= link_to image_tag("spiegelBath.jpg", alt: "Rails"), baths_path %>
 	</td>
       </tr>
     </table>

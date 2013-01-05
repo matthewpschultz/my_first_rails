@@ -1,0 +1,16 @@
+<div class="center hero-unit">
+    <table border = 0 cellpadding="4px">
+      <tr>
+	<td rowspan = "2">
+	  <%= image_tag("costelloKitchen.jpg", alt: "Rails") %>
+	</td>
+	<td>
+	  <%= image_tag("roseTeaCounter.jpg", alt: "Rails") %>
+	</td>
+      </tr>
+      <tr>
+	<td>
+	  <%= image_tag("spiegelBath.jpg", alt: "Rails") %>
+	</td>
+      </tr>
+    </table>

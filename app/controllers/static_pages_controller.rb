@@ -11,4 +11,12 @@ class StaticPagesController < ApplicationController
   def contact
   end
 
+  def kitchens
+  end
+
+  def projects
+  end
+
+  def baths
+  end
 end

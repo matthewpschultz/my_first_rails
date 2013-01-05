@@ -1,0 +1,35 @@
+<div class="center hero-unit">
+    <table border="0" cellpadding="15px" name="kitchen_table">
+      <tr>
+	<td>
+	  <%= image_tag("kitchen_page/costello_pos_1.jpg", alt: "No image") %>
+	</td>
+	<td>
+	  <%= image_tag("kitchen_page/jucha_pos_2.jpg", alt: "No image") %>
+	</td>
+      </tr>
+      <tr>
+	<td>
+	  <p1> SOME TEXT IMAGE 1 </p1>
+	</td>
+	<td>
+	  <p1> SOME TEXT IMAGE 2 </p1>
+	</td>
+      </tr>
+      <tr>
+	<td>
+	  <%= image_tag("kitchen_page/yoder_pos_3.jpg", alt: "No image") %>
+	</td>
+	<td>
+	  <%= image_tag("kitchen_page/wassel_pos_4.jpg", alt: "No image") %>
+	</td>
+      </tr>
+      <tr>
+	<td>
+	  <p1> SOME TEXT IMAGE 3 </p1>
+	</td>
+      	<td>
+	  <p1> SOME TEXT IMAGE 4 </p1>
+	</td>
+      </tr>
+    </table>

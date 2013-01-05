@@ -3,7 +3,9 @@ MyFirstRails::Application.routes.draw do
   root to: 'static_pages#home'
   match '/contact', to: 'static_pages#contact'
   match '/about', to: 'static_pages#about'
-
+  match '/kitchens', to: 'static_pages#kitchens'
+  match '/projects', to: 'static_pages#projects'
+  match '/baths', to: 'static_pages#baths'
 
   #get "static_pages/home"
   #get "static_pages/help"
