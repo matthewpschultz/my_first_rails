@@ -1,1 +1,0 @@
-# This is my first solo unguided rails project. It is still just a simple web page.
